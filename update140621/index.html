@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+
+    <style>
+      body {
+        background-color: lightblue;
+        font-family: 'Poppins', sans-serif;
+      }
+
+      .team__container__container {
+        width: 100%;
+        height: 1000px;
+
+      }
+
+      .team__container {
+        max-width: 1050px;
+        margin: auto;
+
+      }
+
+      .team__card {
+        display: inline-block;
+        vertical-align: top;
+      }
+
+      .card-photo img {
+        background-color: white;
+        width: 250px;
+        cursor: pointer;
+        border: 2px solid lightgray;
+        border-radius: 10px;
+        transition: 2s;
+      }
+
+      .card-info {
+        max-width: 250px !important;
+        text-align: center;
+        display: none;
+        background-color: #fff;
+        position: absolute;
+        z-index: 1;
+        border: 2px solid lightgray;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+
+      .card-info p {
+        padding: 0px 10px;
+      }
+
+      .team__card:hover .card-info {
+        display: block;
+      }
+
+      .team__card:hover .card-photo img {
+        opacity: 1;
+      }
+
+      .noOpacity {
+        opacity: 1 !important;
+      }
+
+
+      .title-team-page {
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
+    </style>
+    <title>Team Page</title>
+  </head>
+
+<body>
+  <div class="team__container__container">
+
+    <div class="team__container">
+
+      <div class="title-team-page">
+
+      </div>
+
+      <div class="team__card">
+        <div class="card-photo" id="Aaron" onmouseover="hello(event, 'Aaron')">
+          <img src="/s/Aaron.png">
+          <!-- <img src="Aaron.png"> -->
+        </div>
+        <div class="card-info">
+          <h2>Aaron</h2>
+
+          <p>Aaron has always had a knack for seeing an opportunity where others may be blind to it.
+            You will notice Aaron’s skills valued in Intuition, honed with practice, to see the inefficiency and
+            possibility, and visualise what the solution will be to improve or seize the situation.</p>
+
+
+        </div>
+      </div>
+
+      <div class="team__card">
+        <div class="card-photo" id="Gio" onmouseover="hello(event, 'Gio')">
+          <img src="/s/gio.png">
+          <!-- <img src="gio.png"> -->
+        </div>
+        <div class="card-info">
+          <h2>Giovanni</h2>
+
+          <p>The constant drive and determination to achieve efficient solutions for the customers are at the core of
+            his hard work!
+            Giovanni is creative, thinks unconventionally and is always available to support others. Furthermore, he is
+            always ready to “get his hands dirty” in any situation.</p>
+
+
+        </div>
+      </div>
+
+      <div class="team__card">
+        <div class="card-photo" id="Pedro" onmouseover="hello(event, 'Pedro')">
+          <img src="/s/Pedro.png">
+          <!-- <img src="Pedro.png"> -->
+        </div>
+        <div class="card-info">
+          <h2>Pedro</h2>
+
+          <p>He is passionate about integrating new technologies into daily routines to make people gain the most
+            valuable resource available: time.
+            Pedro’s time is used with a huge curiosity to keep an eye on the new marketing trends and he’ll find what
+            suits best for your project.</p>
+
+
+
+        </div>
+      </div>
+
+      <div class="team__card">
+        <div class="card-photo" id="Danilo" onmouseover="hello(event, 'Danilo')">
+          <img src="/s/Danilo.png">
+          <!-- <img src="Danilo.png"> -->
+        </div>
+        <div class="card-info">
+          <h2>Danilo</h2>
+
+          <p>Danilo is the one responsible for delivering the best experience to the clients.
+            He is responsible for hearing customers’ needs, giving them all the required support and making sure that
+            they will have their expectations attended to.
+
+          </p>
+        </div>
+      </div>
+
+      <div class="team__card">
+        <div class="card-photo" id="Kemps" onmouseover="hello(event, 'Kemps')">
+          <img src="/s/kemps.jpg">
+          <!-- <img src="kemps.jpg"> -->
+        </div>
+        <div class="card-info">
+          <h2>Kemps</h2>
+
+
+          <p>Kemps loves to create solutions that automate and make people's lives easier.
+            He is very curious and every time he encounters a challenge he sees an opportunity to learn new things.
+
+          </p>
+        </div>
+      </div>
+
+      <div class="team__card">
+        <div class="card-photo" id="Luiza" onmouseover="hello(event, 'Luiza')">
+          <img src="/s/luiza.jpg">
+          <!-- <img src="luiza.jpg"> -->
+        </div>
+        <div class="card-info">
+          <h2>Luiza</h2>
+
+          <p>Luiza has Interpersonal skills. She loves working with people, writing, reading and she is enthusiastic
+            about learning new things.
+            She believes the customer is the heart of every business and understanding their needs is what drives her in
+            her professional area. </p>
+
+
+        </div>
+      </div>
+
+      <div class="team__card">
+        <div class="card-photo" id="Mardi" onmouseover="hello(event, 'Mardi')">
+          <img src="/s/luiza.jpg">
+          <!-- <img src="luiza.jpg"> -->
+        </div>
+        <div class="card-info">
+          <h2>Luiza</h2>
+
+
+
+          <p>Luiza has Interpersonal skills. She loves working with people, writing, reading and she is enthusiastic
+            about learning new things.
+            She believes the customer is the heart of every business and understanding their needs is what drives her in
+            her professional area.
+
+          </p>
+        </div>
+      </div>
+
+
+
+    </div>
+
+
+  </div>
+  <script>
+    function hello(event, name) {
+      let nameEL = document.getElementById(name);
+      nameEL.classList.add('noOpacity');
+      let cardsImg = document.querySelectorAll('.card-photo');
+      for (let i = 0; i < cardsImg.length; i++) {
+        cardsImg[i].style.opacity = 0.5;
+
+      }
+      nameEL.addEventListener('mouseleave', function () {
+        nameEL.className = nameEL.className.replace(' noOpacity', '')
+        for (let i = 0; i < cardsImg.length; i++) {
+          cardsImg[i].style.opacity = 1;
+
+        }
+      })
+
+
+    }
+
+
+  </script>
+
+</body>
+
+</html>
